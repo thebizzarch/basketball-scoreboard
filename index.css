@@ -1,0 +1,85 @@
+@font-face{
+    font-family: TimerFont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+  
+h2 {
+    font-family: TimerFont;
+    color: darkgreen;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+h3{
+    height: 36px;
+    width: 149px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eeeeee;
+}
+
+h4{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+
+.scorecontainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: TimerFont;
+}
+
+#guest-el {
+    font-size: 90px;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottpm: 0;
+}
+
+#home-el {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottpm: 0;
+}
+.scorebutton{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 155px;
+    border-radius: 3px;
+}
+
+.addpoints{
+    width: 45px;
+    font-family: TimerFont;
+    border: 3px dashed #9AABD8;
+    border-radius: 5px;   
+    background: inherit;
+    color: #9AABD8    
+}
+
+.points{
+    background: black;
+    color: #F94F6D;
+    width:155px;
+    height: 120px;
+    text-align: center;
+}
